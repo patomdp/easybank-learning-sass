@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>EasyBank</title>
+    <link rel="stylesheet" href="static/css/estilos.css">
+
 </head>
+
+
+<!-- comentario
+
+instalar sass en -> sass-lang.com/install
+npm install -g sass
+
+en terminal: sass -v
+crear archivo de estilos.scss
+
+crear la carpeta "static>css" y adentro vamos a poner "estilos.css"
+
+1- para iniciar un sass por primera vez, en consola ir a: 
+"sass ./src/sass/estilos.scss ./static/css/estilos.css"
+basicamente le decimos que transpile el SCSS al CSS y le pasamos la ruta origen y la objetivo
+esto se hace para mapear el sass a un css, cada vez que se hagan cambios hay que ejecutar el comando
+
+2- Aunque hay una forma de corregir esta situacion con un WATCH o ESCUCHA de este archivo (SCSS) , para que 
+cada vez que se haga un cambio en este archivo, tambien se haga en el CSS
+
+sass --watch ./src/sass/estilos.scss:./static/css/estilos.css
+Se agrega el "--watch" y el ":" luego de la ruta original
+
+3- Importar mi hoja de estilos, la .css, no la otra <link rel="stylesheet" href="static/css/estilos.css">
+LISTO ahora los SCSS y CSS estan super linkeados, no necesitamos abrir mas el
+archivo .css
+
+4- Click derecho-> Open with Live Server (hay que configurarlo antes)
+
+-->
+
 <body>
-    
+    <h1>Hola mundo Easy Bank</h1>
 </body>
 </html>
